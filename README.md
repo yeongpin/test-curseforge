@@ -1,0 +1,2 @@
+# test-curseforge
+ads remove
