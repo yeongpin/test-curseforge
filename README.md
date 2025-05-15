@@ -22,3 +22,13 @@ frame show
 ```
 frame: !0,
 ```
+
+set premium
+```
+{let e=AK(e=>e.subscription?.active);return S_(null),(0,k.jsxs)("div",{"data-testid":"subscription-page",className:"content-section scrollable",children:[e?(0,k.jsx)(Fi,{}):(0,k.jsx)(S7,{}),(0,k.jsx)(FA,{})]})}
+```
+
+change to
+```
+{let e=AK(()=>!0);return S_(null),(0,k.jsxs)("div",{"data-testid":"subscription-page",className:"content-section scrollable",children:[e?(0,k.jsx)(Fi,{}):(0,k.jsx)(S7,{}),(0,k.jsx)(FA,{})]})}
+```
